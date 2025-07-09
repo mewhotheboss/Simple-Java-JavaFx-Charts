@@ -54,8 +54,11 @@ This project demonstrates key concepts of **JavaFX**, including:
 ## 🖼 Screenshots
 
 📋 **Charts List:**
+
 ![](001.png)
 
 📊 **Sample Charts:**
+
 ![](002.png)
+
 ![](003.png)
