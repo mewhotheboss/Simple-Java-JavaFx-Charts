@@ -1,38 +1,61 @@
-# Simple Java | JavaFx Charts
+# 📊 JavaFX Charts Demo
 
-__IDE: IntelliJ IDEA__
+**IDE:** *IntelliJ IDEA*
 
-## Learning:
-The primary feature of Java showcased in this code is JavaFX, which is used for creating graphical user interfaces (GUIs). Specifically, the code demonstrates the use of several key aspects of JavaFX:
+A simple Java application showcasing **JavaFX Charts** with interactive UI elements and clean layout management.
 
-#### JavaFX Application Structure: 
-The class HelloApplication extends the Application, and the start method is overridden to set up the stage and scene, which are core components of a JavaFX application.
+---
 
-#### JavaFX Components: 
-Various JavaFX UI components are utilized, such as:
+## 🚀 What You’ll Learn
 
-1. Button
-2. PieChart, LineChart, AreaChart, BarChart, BubbleChart, ScatterChart
-3. GridPane for layout management
-4. ScrollPane for adding scrolling capability to the GridPane
-5. Scene and Stage for managing the display window.
-#### Event Handling: 
-The code uses event handling to respond to button clicks.
+This project demonstrates key concepts of **JavaFX**, including:
 
-#### Chart Data: 
-Various types of charts are populated with data using XYChart.
+### 🏗 JavaFX Application Structure
 
-#### Layouts and Positioning: 
-The GridPane layout is used to arrange buttons and charts in a grid.
+* `HelloApplication` extends `Application`.
+* The `start()` method sets up the **Stage** and **Scene** — the backbone of any JavaFX app.
 
-#### ScrollPane: 
-The ScrollPane wraps the GridPane, enabling scrolling when the content exceeds the visible area.
+### 🧱 JavaFX Components
 
-**Screenshot (Charts List):**
+* UI elements like:
 
+  * **Button**
+  * **PieChart**, **LineChart**, **AreaChart**, **BarChart**, **BubbleChart**, **ScatterChart**
+  * **GridPane** for layout management
+  * **ScrollPane** for scrollable content
+  * **Scene** & **Stage** to manage the display window
+
+### ⚡ Event Handling
+
+* Responds to button clicks using JavaFX’s event handling mechanism.
+
+### 📈 Chart Data
+
+* Charts are dynamically populated using `XYChart` data structures.
+
+### 📐 Layouts & Positioning
+
+* Utilizes **GridPane** to arrange buttons and charts neatly in a grid.
+
+### 🖱 Scroll Support
+
+* **ScrollPane** wraps the `GridPane` to handle overflowing content elegantly.
+
+---
+
+## 🛠 Technologies Used
+
+* **Java**
+* **JavaFX**
+* **IntelliJ IDEA**
+
+---
+
+## 🖼 Screenshots
+
+📋 **Charts List:**
 ![](001.png)
 
-**Screenshot (Charts):**
-
+📊 **Sample Charts:**
 ![](002.png)
 ![](003.png)
